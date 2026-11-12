@@ -105,4 +105,5 @@ nome; essa pasta é local e não é versionada.
 
 Antes de publicar em produção, configure pelo menos `DEBUG=False`, uma `SECRET_KEY` segura carregada de variável de ambiente e os domínios em `ALLOWED_HOSTS`. Os valores atuais de desenvolvimento em `jb_sistema/settings.py` não devem ser usados como configuração de produção.
 
-# Gestão ---------
+### backlog
+Consulta automática de ncm do produto através do código de barras
