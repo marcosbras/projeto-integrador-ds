@@ -98,6 +98,11 @@ local em `dados/jb_tintas.db`. `OK` significa que os testes encontrados
 passaram; `F` indica uma falha de verificação e `E`, um erro durante a execução.
 Os testes cobrem os cenários programados, não todas as situações possíveis.
 
+Ao terminar cada execução de testes, o projeto também gera um relatório PDF
+com o resumo, os resultados e os detalhes de falhas, erros, testes ignorados e
+sucessos inesperados. Os arquivos ficam em `test-results/`, com data e hora no
+nome; essa pasta é local e não é versionada.
+
 Antes de publicar em produção, configure pelo menos `DEBUG=False`, uma `SECRET_KEY` segura carregada de variável de ambiente e os domínios em `ALLOWED_HOSTS`. Os valores atuais de desenvolvimento em `jb_sistema/settings.py` não devem ser usados como configuração de produção.
 
 # Gestão ----

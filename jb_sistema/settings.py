@@ -58,6 +58,7 @@ USE_I18N = True
 USE_TZ = True
 ROOT_URLCONF = 'jb_sistema.urls'
 WSGI_APPLICATION = 'jb_sistema.wsgi.application'
+TEST_RUNNER = 'inventario.test_runner.PdfReportingDiscoverRunner'
 
 STATIC_URL = '/static/'
 
